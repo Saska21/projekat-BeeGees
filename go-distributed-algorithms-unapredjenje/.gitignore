@@ -1,0 +1,50 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Go binaries and build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+bin/
+dist/
+build/
+
+# Go coverage and profiling
+*.cover
+cover.out
+coverage.out
+*.prof
+cpu.prof
+mem.prof
+
+# Go workspace and vendoring (uncomment if you vendor)
+# vendor/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs and temp files
+*.log
+tmp/
+.temp/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Dependency directories (if any JS tooling appears)
+node_modules/
+
+# Temporary: ignore Go test files for now
+**/*_test.go
